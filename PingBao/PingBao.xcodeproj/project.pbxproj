@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041897341BF0D97D009E6936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041897331BF0D97D009E6936 /* Foundation.framework */; };
+		041897361BF0D97D009E6936 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041897351BF0D97D009E6936 /* CoreGraphics.framework */; };
+		041897381BF0D97D009E6936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041897371BF0D97D009E6936 /* UIKit.framework */; };
+		0418973E1BF0D97D009E6936 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0418973C1BF0D97D009E6936 /* InfoPlist.strings */; };
+		041897401BF0D97D009E6936 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418973F1BF0D97D009E6936 /* main.m */; };
+		041897441BF0D97D009E6936 /* LYFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041897431BF0D97D009E6936 /* LYFAppDelegate.m */; };
+		041897471BF0D97D009E6936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041897451BF0D97D009E6936 /* Main.storyboard */; };
+		0418974A1BF0D97D009E6936 /* LYFMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041897491BF0D97D009E6936 /* LYFMainViewController.m */; };
+		0418974D1BF0D97D009E6936 /* LYFFlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0418974C1BF0D97D009E6936 /* LYFFlipsideViewController.m */; };
+		0418974F1BF0D97D009E6936 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0418974E1BF0D97D009E6936 /* Images.xcassets */; };
+		041897561BF0D97D009E6936 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041897551BF0D97D009E6936 /* XCTest.framework */; };
+		041897571BF0D97D009E6936 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041897331BF0D97D009E6936 /* Foundation.framework */; };
+		041897581BF0D97D009E6936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 041897371BF0D97D009E6936 /* UIKit.framework */; };
+		041897601BF0D97D009E6936 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0418975E1BF0D97D009E6936 /* InfoPlist.strings */; };
+		041897621BF0D97D009E6936 /* PingBaoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041897611BF0D97D009E6936 /* PingBaoTests.m */; };
+		0418976C1BF0E967009E6936 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0418976B1BF0E967009E6936 /* QuartzCore.framework */; };
+		0418976F1BF0EAAC009E6936 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418976D1BF0EAAC009E6936 /* 1.png */; };
+		041897701BF0EAAC009E6936 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0418976E1BF0EAAC009E6936 /* 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		041897591BF0D97D009E6936 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041897281BF0D97D009E6936 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0418972F1BF0D97D009E6936;
+			remoteInfo = PingBao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041897301BF0D97D009E6936 /* PingBao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingBao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		041897331BF0D97D009E6936 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041897351BF0D97D009E6936 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		041897371BF0D97D009E6936 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0418973B1BF0D97D009E6936 /* PingBao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingBao-Info.plist"; sourceTree = "<group>"; };
+		0418973D1BF0D97D009E6936 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0418973F1BF0D97D009E6936 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041897411BF0D97D009E6936 /* PingBao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PingBao-Prefix.pch"; sourceTree = "<group>"; };
+		041897421BF0D97D009E6936 /* LYFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFAppDelegate.h; sourceTree = "<group>"; };
+		041897431BF0D97D009E6936 /* LYFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFAppDelegate.m; sourceTree = "<group>"; };
+		041897461BF0D97D009E6936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		041897481BF0D97D009E6936 /* LYFMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFMainViewController.h; sourceTree = "<group>"; };
+		041897491BF0D97D009E6936 /* LYFMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFMainViewController.m; sourceTree = "<group>"; };
+		0418974B1BF0D97D009E6936 /* LYFFlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFFlipsideViewController.h; sourceTree = "<group>"; };
+		0418974C1BF0D97D009E6936 /* LYFFlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFFlipsideViewController.m; sourceTree = "<group>"; };
+		0418974E1BF0D97D009E6936 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		041897541BF0D97D009E6936 /* PingBaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingBaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		041897551BF0D97D009E6936 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0418975D1BF0D97D009E6936 /* PingBaoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PingBaoTests-Info.plist"; sourceTree = "<group>"; };
+		0418975F1BF0D97D009E6936 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		041897611BF0D97D009E6936 /* PingBaoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PingBaoTests.m; sourceTree = "<group>"; };
+		0418976B1BF0E967009E6936 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0418976D1BF0EAAC009E6936 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		0418976E1BF0EAAC009E6936 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0418972D1BF0D97D009E6936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0418976C1BF0E967009E6936 /* QuartzCore.framework in Frameworks */,
+				041897361BF0D97D009E6936 /* CoreGraphics.framework in Frameworks */,
+				041897381BF0D97D009E6936 /* UIKit.framework in Frameworks */,
+				041897341BF0D97D009E6936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041897511BF0D97D009E6936 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041897561BF0D97D009E6936 /* XCTest.framework in Frameworks */,
+				041897581BF0D97D009E6936 /* UIKit.framework in Frameworks */,
+				041897571BF0D97D009E6936 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041897271BF0D97D009E6936 = {
+			isa = PBXGroup;
+			children = (
+				041897391BF0D97D009E6936 /* PingBao */,
+				0418975B1BF0D97D009E6936 /* PingBaoTests */,
+				041897321BF0D97D009E6936 /* Frameworks */,
+				041897311BF0D97D009E6936 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		041897311BF0D97D009E6936 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				041897301BF0D97D009E6936 /* PingBao.app */,
+				041897541BF0D97D009E6936 /* PingBaoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		041897321BF0D97D009E6936 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0418976B1BF0E967009E6936 /* QuartzCore.framework */,
+				041897331BF0D97D009E6936 /* Foundation.framework */,
+				041897351BF0D97D009E6936 /* CoreGraphics.framework */,
+				041897371BF0D97D009E6936 /* UIKit.framework */,
+				041897551BF0D97D009E6936 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		041897391BF0D97D009E6936 /* PingBao */ = {
+			isa = PBXGroup;
+			children = (
+				0418976D1BF0EAAC009E6936 /* 1.png */,
+				0418976E1BF0EAAC009E6936 /* 2.png */,
+				041897421BF0D97D009E6936 /* LYFAppDelegate.h */,
+				041897431BF0D97D009E6936 /* LYFAppDelegate.m */,
+				041897451BF0D97D009E6936 /* Main.storyboard */,
+				041897481BF0D97D009E6936 /* LYFMainViewController.h */,
+				041897491BF0D97D009E6936 /* LYFMainViewController.m */,
+				0418974B1BF0D97D009E6936 /* LYFFlipsideViewController.h */,
+				0418974C1BF0D97D009E6936 /* LYFFlipsideViewController.m */,
+				0418974E1BF0D97D009E6936 /* Images.xcassets */,
+				0418973A1BF0D97D009E6936 /* Supporting Files */,
+			);
+			path = PingBao;
+			sourceTree = "<group>";
+		};
+		0418973A1BF0D97D009E6936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0418973B1BF0D97D009E6936 /* PingBao-Info.plist */,
+				0418973C1BF0D97D009E6936 /* InfoPlist.strings */,
+				0418973F1BF0D97D009E6936 /* main.m */,
+				041897411BF0D97D009E6936 /* PingBao-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0418975B1BF0D97D009E6936 /* PingBaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				041897611BF0D97D009E6936 /* PingBaoTests.m */,
+				0418975C1BF0D97D009E6936 /* Supporting Files */,
+			);
+			path = PingBaoTests;
+			sourceTree = "<group>";
+		};
+		0418975C1BF0D97D009E6936 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0418975D1BF0D97D009E6936 /* PingBaoTests-Info.plist */,
+				0418975E1BF0D97D009E6936 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0418972F1BF0D97D009E6936 /* PingBao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041897651BF0D97D009E6936 /* Build configuration list for PBXNativeTarget "PingBao" */;
+			buildPhases = (
+				0418972C1BF0D97D009E6936 /* Sources */,
+				0418972D1BF0D97D009E6936 /* Frameworks */,
+				0418972E1BF0D97D009E6936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingBao;
+			productName = PingBao;
+			productReference = 041897301BF0D97D009E6936 /* PingBao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		041897531BF0D97D009E6936 /* PingBaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 041897681BF0D97D009E6936 /* Build configuration list for PBXNativeTarget "PingBaoTests" */;
+			buildPhases = (
+				041897501BF0D97D009E6936 /* Sources */,
+				041897511BF0D97D009E6936 /* Frameworks */,
+				041897521BF0D97D009E6936 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0418975A1BF0D97D009E6936 /* PBXTargetDependency */,
+			);
+			name = PingBaoTests;
+			productName = PingBaoTests;
+			productReference = 041897541BF0D97D009E6936 /* PingBaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		041897281BF0D97D009E6936 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYF;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Alibaba;
+				TargetAttributes = {
+					041897531BF0D97D009E6936 = {
+						TestTargetID = 0418972F1BF0D97D009E6936;
+					};
+				};
+			};
+			buildConfigurationList = 0418972B1BF0D97D009E6936 /* Build configuration list for PBXProject "PingBao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 041897271BF0D97D009E6936;
+			productRefGroup = 041897311BF0D97D009E6936 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0418972F1BF0D97D009E6936 /* PingBao */,
+				041897531BF0D97D009E6936 /* PingBaoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0418972E1BF0D97D009E6936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0418974F1BF0D97D009E6936 /* Images.xcassets in Resources */,
+				0418976F1BF0EAAC009E6936 /* 1.png in Resources */,
+				041897701BF0EAAC009E6936 /* 2.png in Resources */,
+				0418973E1BF0D97D009E6936 /* InfoPlist.strings in Resources */,
+				041897471BF0D97D009E6936 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041897521BF0D97D009E6936 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041897601BF0D97D009E6936 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0418972C1BF0D97D009E6936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0418974D1BF0D97D009E6936 /* LYFFlipsideViewController.m in Sources */,
+				041897441BF0D97D009E6936 /* LYFAppDelegate.m in Sources */,
+				041897401BF0D97D009E6936 /* main.m in Sources */,
+				0418974A1BF0D97D009E6936 /* LYFMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		041897501BF0D97D009E6936 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				041897621BF0D97D009E6936 /* PingBaoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0418975A1BF0D97D009E6936 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0418972F1BF0D97D009E6936 /* PingBao */;
+			targetProxy = 041897591BF0D97D009E6936 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0418973C1BF0D97D009E6936 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0418973D1BF0D97D009E6936 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		041897451BF0D97D009E6936 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041897461BF0D97D009E6936 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0418975E1BF0D97D009E6936 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0418975F1BF0D97D009E6936 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		041897631BF0D97D009E6936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		041897641BF0D97D009E6936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		041897661BF0D97D009E6936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingBao/PingBao-Prefix.pch";
+				INFOPLIST_FILE = "PingBao/PingBao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		041897671BF0D97D009E6936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingBao/PingBao-Prefix.pch";
+				INFOPLIST_FILE = "PingBao/PingBao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		041897691BF0D97D009E6936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PingBao.app/PingBao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingBao/PingBao-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PingBaoTests/PingBaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0418976A1BF0D97D009E6936 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PingBao.app/PingBao";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PingBao/PingBao-Prefix.pch";
+				INFOPLIST_FILE = "PingBaoTests/PingBaoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0418972B1BF0D97D009E6936 /* Build configuration list for PBXProject "PingBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041897631BF0D97D009E6936 /* Debug */,
+				041897641BF0D97D009E6936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		041897651BF0D97D009E6936 /* Build configuration list for PBXNativeTarget "PingBao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041897661BF0D97D009E6936 /* Debug */,
+				041897671BF0D97D009E6936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		041897681BF0D97D009E6936 /* Build configuration list for PBXNativeTarget "PingBaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				041897691BF0D97D009E6936 /* Debug */,
+				0418976A1BF0D97D009E6936 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 041897281BF0D97D009E6936 /* Project object */;
+}
